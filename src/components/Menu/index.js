@@ -7,34 +7,34 @@ const Menu = (props) => {
     const vegetables = [
         {
             name: 'Potato',
-            img: '/imgs/Potato-PNG-Picture.png',
+            img: '/imgs/Potato-PNG-Picture Small.png',
         },
         {
             name: 'Lettuce',
-            img: '/imgs/alface-crespa-verde-hidropônica.png'
+            img: '/imgs/alface-crespa-verde-hidropônica Small.png'
         },
         {
             name: 'Carrot',
-            img: '/imgs/purepng.com-carrotcarrotdomestic-carrotfast-growingcarrots-1701527243731np6ec.png'
+            img: '/imgs/purepng.com-carrotcarrotdomestic-carrotfast-growingcarrots-1701527243731np6ec Small.png'
         },
         {
             name: 'Broccoli',
-            img: '/imgs/purepng.com-fresh-broccolivegetables-broccoli-941524712680vbaj1.png'
+            img: '/imgs/purepng.com-fresh-broccolivegetables-broccoli-941524712680vbaj1 Small.png'
         },
     ]
 
     const meat = [
         {
             name: 'Bacon',
-            img: '/imgs/purepng.com-baconfood-meat-fried-pork-cooked-941524619205lmptp.png'
+            img: '/imgs/purepng.com-baconfood-meat-fried-pork-cooked-941524619205lmptp Small.png'
         },
         {
             name: 'Ham',
-            img: '/imgs/purepng.com-hamhamporkswinemeat-1411527528692xsf7x.png'
+            img: '/imgs/purepng.com-hamhamporkswinemeat-1411527528692xsf7x Small.png'
         },
         {
             name: 'Steak',
-            img: '/imgs/purepng.com-meatfood-meat-red-fresh-grill-cook-beef-steak-941524623742oddr6.png'
+            img: '/imgs/purepng.com-meatfood-meat-red-fresh-grill-cook-beef-steak-941524623742oddr6 Small.png'
         }
     ]
 
