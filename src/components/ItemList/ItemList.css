@@ -1,0 +1,36 @@
+.item-option {
+    width: 180px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: #F8F6F4;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline-block;
+    margin: 0px 10px 10px 0px;
+}
+
+.item-option:hover {
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.item-option .color {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ECE8DD;
+}
+
+.item-option img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    padding-top: 5px;
+}
+
+.item-option .item-name {
+    font-weight: bolder;
+    padding-bottom: 0.2em;
+    font-size: 1.2em;
+}

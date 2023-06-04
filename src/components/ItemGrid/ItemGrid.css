@@ -1,0 +1,52 @@
+.grid {
+    text-align: center;
+    padding: 32px;
+}
+
+.grid .welcome {
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    transition: 0.5s;
+}
+
+.grid .prototype {
+    font-weight: bold;
+    margin-top: -4%;
+    transition: 0.5s;
+}
+
+.grid .items {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+.add-item-btn {
+    position: fixed;
+    top: 85%;
+    left: 92%;
+}
+
+.add-item-btn button {
+    display: flex;
+    border-radius: 50%;
+    border: none;
+    background-color: #579BB1;
+    color: #fff;
+    font-size: 3em;
+    padding: 8px 20px;
+    cursor: pointer;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.add-item-btn button:hover {
+    font-size: 3.2em;
+    padding: 9px 23px;
+}

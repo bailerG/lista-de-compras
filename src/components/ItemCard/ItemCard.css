@@ -1,0 +1,40 @@
+.item {
+    width: 280px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 22px;
+    transition: 0.5s;
+}
+
+.item:hover, .item:focus {
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.item .color {
+    border-radius: 10px 10px 0px 0px;
+    background-color: #ECE8DD;
+}
+
+.item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    bottom: -30px;
+}
+
+.item .item-name {
+    color: rgb(53, 53, 53);
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item .item-name h4 {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
