@@ -20,6 +20,7 @@
     max-height: 400px;
     background-color: #F8F6F4;
     border-radius: 20px 0px 0px 20px;
+    animation: 0.5s anim-lineUp ease-out;
 }
 
 .inner-items {
@@ -32,8 +33,26 @@
     background-color: #F8F6F4;
     border-radius: 0px 20px 20px 0px;
     border-left: 1px solid  grey ;
-    
+    animation: 0.5s anim-lineUp ease-out;
 }
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 
 .inner-items .close-btn {
     position: absolute;
