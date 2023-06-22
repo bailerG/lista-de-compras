@@ -1,1 +1,1 @@
-A shopping list made in React with some minimalist design.
+A shopping list made with React with some minimalist design.
